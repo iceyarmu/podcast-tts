@@ -1,0 +1,28 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python environments and build output
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local source material and generated output
+docs/
+test/
